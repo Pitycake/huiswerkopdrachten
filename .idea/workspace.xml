@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a2eba1-1df8-4fa8-a9b1-e76d7acea545" name="Changes" comment="">
+    <list default="true" id="d0a2eba1-1df8-4fa8-a9b1-e76d7acea545" name="Changes" comment="Laatste aanpassing MoneyExchange">
+      <change afterPath="$PROJECT_DIR$/src/controller/ControlFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/MoneyExchangeAdvanced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/WhileLoops.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/MoneyExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MoneyExchange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,37 +51,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BMIBerekening.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BodyMassIndex.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Boekopdracht1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Boekopdracht2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComputeArea.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComputeAreaWithConsoleInput.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComputeAverage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DisplayTime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FarenheitToCelcius.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeeftijdBerekening.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeeftijdBerekeningLauncher.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeerPlichtig.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoneyExchange.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RaadGetal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SommetjesLauncher.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Stemmen.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestMax.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TypeCasting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VerkoopPrijs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Voorbeeldrekensommetje.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WeekDag.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BMIBerekening.executor": "Run",
+    "Application.BodyMassIndex.executor": "Run",
+    "Application.Boekopdracht1.executor": "Run",
+    "Application.Boekopdracht2.executor": "Run",
+    "Application.ComputeArea.executor": "Run",
+    "Application.ComputeAreaWithConsoleInput.executor": "Run",
+    "Application.ComputeAverage.executor": "Run",
+    "Application.ControlFlow.executor": "Run",
+    "Application.DisplayTime.executor": "Run",
+    "Application.FarenheitToCelcius.executor": "Run",
+    "Application.LeeftijdBerekening.executor": "Run",
+    "Application.LeeftijdBerekeningLauncher.executor": "Run",
+    "Application.LeerPlichtig.executor": "Run",
+    "Application.MoneyExchange.executor": "Run",
+    "Application.MoneyExchangeAdvanced.executor": "Run",
+    "Application.RaadGetal.executor": "Run",
+    "Application.SommetjesLauncher.executor": "Run",
+    "Application.Stemmen.executor": "Run",
+    "Application.TestMax.executor": "Run",
+    "Application.TypeCasting.executor": "Run",
+    "Application.VerkoopPrijs.executor": "Run",
+    "Application.Voorbeeldrekensommetje.executor": "Run",
+    "Application.WeekDag.executor": "Run",
+    "Application.WhileLoops.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WhileLoops">
+    <configuration name="ControlFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.ControlFlow" />
+      <module name="huiswerkopdrachten" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MoneyExchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="controller.MoneyExchange" />
       <module name="huiswerkopdrachten" />
@@ -93,8 +116,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoneyExchangeAdvanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.MoneyExchangeAdvanced" />
+      <module name="huiswerkopdrachten" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhileLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.WhileLoops" />
+      <module name="huiswerkopdrachten" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WhileLoops" />
+        <item itemvalue="Application.ControlFlow" />
+        <item itemvalue="Application.MoneyExchangeAdvanced" />
         <item itemvalue="Application.MoneyExchange" />
       </list>
     </recent_temporary>
@@ -108,7 +160,20 @@
       <option name="presentableId" value="Default" />
       <updated>1728461602466</updated>
     </task>
+    <task id="LOCAL-00001" summary="Laatste aanpassing MoneyExchange">
+      <option name="closed" value="true" />
+      <created>1728725278888</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728725278889</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Laatste aanpassing MoneyExchange" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laatste aanpassing MoneyExchange" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
