@@ -4,48 +4,35 @@ import java.util.Scanner;
 
 public class MoneyExchange {
 
-    public static void main (String [] args) {
-        int euro;
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Vraag de gebruiker om het aantal euro's in te voeren
+        System.out.print("In te wisselen bedrag (alleen gehele getallen): ");
+        int euro = input.nextInt(); // Sla de invoer op in de variabele 'euro'
+
+        // Bereken de wisselkoersen op basis van het ingevoerde aantal euro's en maak ze definitief ('final')
         final double DOLLAR = euro * 1.23843;
         final double POND = euro * 0.88459;
         final double YEN = euro * 134.67411;
-        double transactieKosten = 1.0;
 
-        int wisselBedrag = (int) (euro - transactieKosten);
+        // Bereken de transactiekosten (1,5% van het bedrag, minimaal 2 en maximaal 15 euro)
+        double transactieKostenDouble = Math.max(2, Math.min(15, euro * 0.015));
 
+        // Rond de transactiekosten naar boven af naar het dichtstbijzijnde gehele getal
+        final int transactieKosten = (int) Math.ceil(transactieKostenDouble);
 
+        // Trek de transactiekosten af van het in te wisselen bedrag
+        final int wisselBedrag = euro - transactieKosten;
 
-        Scanner input;
-        input = new Scanner(System.in);
-        System.out.print("In te wisselen bedrag (alleen gehele getallen): ");
-        input.nextInt();
+        // Toon de resultaten
         System.out.println("De transactiekosten bedragen " + transactieKosten + " Euro");
-        System.out.println("We rekenen daarom " + wisselBedrag + " voor u om.");
+        System.out.println("We rekenen daarom " + wisselBedrag + " Euro voor u om.");
+        System.out.println("U krijgt hiervoor " + (wisselBedrag * 1.23843) + " Dollar.");
+        System.out.println("U krijgt hiervoor " + (wisselBedrag * 0.88459) + " Pond.");
+        System.out.println("U krijgt hiervoor " + (wisselBedrag * 134.67411) + " Yen.");
 
-
-        System.out.println(" U krijgt hiervoor " + DOLLAR + " Dollar.");
-        System.out.println(" U krijgt hiervoor " + POND + " Pond.");
-        System.out.println(" U krijgt hiervoor " + YEN + " Yen.");
-
-
-
+        // Sluit de scanner om resourcelekken te voorkomen
+        input.close();
     }
 }
-
-
-
-
-
-//Schrijf een programma dat uitrekent hoeveel buitenlandse valuta een klant krijgt voor zijn
-//euro’s. In het programma wordt voor de volgende valuta het bedrag uitgerekend:
-//• US dollar
-//• GB pound
-//• Yen
-//Alleen een geheel aantal euro’s kan worden omgewisseld.
-//Zorg dat de invoer en uitvoer van het programma er als vol
-
-//Voor het wisselen moet de klant transactiekosten betalen. Deze bedragen 1,5%, met een
-//minimum van 2 euro per transactie en een maximum van 15 euro per transactie. Schrijf voor het
-//berekenen van de transactiekosten een methode die op basis van het in te wisselen bedrag in
-//euro’s de kosten berekent en teruggeeft (returned).
-//Zorg dat de invoer en uitvoer van het programma er als volgt uitziet:

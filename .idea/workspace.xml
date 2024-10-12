@@ -6,26 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d0a2eba1-1df8-4fa8-a9b1-e76d7acea545" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/BMIBerekening.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/BMIBerekening.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/BMIBerekeningAdvanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/BMIBerekeningAdvanced.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/BodyMassIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/BodyMassIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Boekopdracht1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Boekopdracht1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Boekopdracht2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Boekopdracht2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ComputeArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ComputeArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ComputeAreaWithConsoleInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ComputeAreaWithConsoleInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ComputeAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ComputeAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/DisplayTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/DisplayTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/FarenheitToCelcius.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/FarenheitToCelcius.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/LeeftijdBerekening.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LeeftijdBerekening.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/LeerPlichtig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LeerPlichtig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/MoneyExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MoneyExchange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/RaadGetal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/RaadGetal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Stemmen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Stemmen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/TestMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/TestMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/TypeCasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/TypeCasting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/VerkoopPrijs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/VerkoopPrijs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Voorbeeldrekensommetje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Voorbeeldrekensommetje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/WeekDag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/WeekDag.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +29,12 @@
     &quot;assignee&quot;: &quot;Pitycake&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:Pitycake/huiswerkopdrachten.git&quot;,
-    &quot;accountId&quot;: &quot;3411216d-b216-4148-82b2-59431fbbe24f&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Pitycake/huiswerkopdrachten.git",
+    "accountId": "95dc99f0-ff1c-4dca-b3c9-451a0eee58e5"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -68,36 +49,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BMIBerekening.executor": "Run",
-    "Application.BodyMassIndex.executor": "Run",
-    "Application.Boekopdracht1.executor": "Run",
-    "Application.Boekopdracht2.executor": "Run",
-    "Application.ComputeArea.executor": "Run",
-    "Application.ComputeAreaWithConsoleInput.executor": "Run",
-    "Application.ComputeAverage.executor": "Run",
-    "Application.DisplayTime.executor": "Run",
-    "Application.FarenheitToCelcius.executor": "Run",
-    "Application.LeeftijdBerekening.executor": "Run",
-    "Application.LeeftijdBerekeningLauncher.executor": "Run",
-    "Application.LeerPlichtig.executor": "Run",
-    "Application.MoneyExchange.executor": "Run",
-    "Application.RaadGetal.executor": "Run",
-    "Application.SommetjesLauncher.executor": "Run",
-    "Application.Stemmen.executor": "Run",
-    "Application.TestMax.executor": "Run",
-    "Application.TypeCasting.executor": "Run",
-    "Application.VerkoopPrijs.executor": "Run",
-    "Application.Voorbeeldrekensommetje.executor": "Run",
-    "Application.WeekDag.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BMIBerekening.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BodyMassIndex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Boekopdracht1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Boekopdracht2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComputeArea.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComputeAreaWithConsoleInput.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComputeAverage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DisplayTime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FarenheitToCelcius.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeeftijdBerekening.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeeftijdBerekeningLauncher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeerPlichtig.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoneyExchange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RaadGetal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SommetjesLauncher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stemmen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestMax.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TypeCasting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VerkoopPrijs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Voorbeeldrekensommetje.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeekDag.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MoneyExchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="controller.MoneyExchange" />
